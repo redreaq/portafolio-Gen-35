@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Ramon Eduardo Alvarez Quintero">
+  <meta name="description" content="No más de 165 caracteres">
+  <meta name="keywords" content="programador, fullstack developer, creador de contenido">
+  <meta name="theme-color" content="#09f">
+  <!-- Iconos  -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <!-- tipografía  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+  <title>Portafolio-REAQ</title>
+
+  <link rel="icon" href="assets/img/cartoonMe.jpeg" type="image/jpeg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="module" src="assets/js/main.js" defer></script>
+
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+    emailjs.init('vNNrnaiwlu-J7QqOH')
+  </script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar grid--container">
+      <a class="navbar__logo" href="#"><i class='bx bxs-registered'></i>Eduardo</a>
+
+      <div id="nav" class="navbar__menu">
+        <a href="#close"><i class="bx bx-x btn__close navbar__icon"></i></a>
+
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a class="navbar__link active" href="#home">Inicio</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#about">Acerca de Mí</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#skills">Habilidades</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#projects">Portafolio</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar__toggles">
+        <div class="button">
+          <button id="switch" class="switch">
+            <span><i class='bx bx-sun'></i></span>
+            <span><i class='bx bxs-moon'></i></span>
+          </button>
+        </div>
+        <div class="navbar__toggle--language">
+          <input type="checkbox" id="language-toggle" class="navbar__toggle--language-input" />
+          <label for="language-toggle" class="navbar__toggle--language-label">
+        </div>
+      </div>
+      <a href="#nav"><i class="bx bx-menu btn__open navbar__icon"></i></a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="home">
+      <i class='bx bxl-html5 home__layer home__layer--1' data-speed="-5"></i>
+      <i class='bx bxl-javascript home__layer home__layer--2' data-speed="5"></i>
+      <i class='bx bxl-css3 home__layer home__layer--3' data-speed="2"></i>
+      <i class='bx bxl-nodejs home__layer home__layer--4' data-speed="6"></i>
+      <i class='bx bxl-react home__layer home__layer--5' data-speed="8"></i>
+      <i class='bx bxl-tailwind-css home__layer home__layer--6' data-speed="-2"></i>
+      <i class='bx bxl-redux home__layer home__layer--7' data-speed="4"></i>
+      <i class='bx bxl-typescript home__layer home__layer--8' data-speed="-2"></i>
+      <i class='bx bxl-git home__layer home__layer--9' data-speed="6"></i>
+      <i class='bx bxl-graphql home__layer home__layer--10' data-speed="-7"></i>
+      <i class='bx bx-code-alt home__layer home__layer--11' data-speed="-5"></i>
+      <div class="home__container grid--container">
+        <div class="home__image">
+          <span></span>
+          <img src="assets/img/Fotoprof2.png" alt="profile photo" />
+        </div>
+
+        <ul class="home__social">
+          <li class="home__social-item">
+            <a class="home__social-link" href="https://www.linkedin.com/in/ramon-eduardo-alvarez-quintero-610270111/"><i class="bx bxl-linkedin"></i></a>
+          </li>
+          <li class="home__social-item">
+            <a class="home__social-link" href="https://wa.me/5491139413213?text=Tu%20Mensaje%20De%20Texto"><i class='bx bxl-whatsapp'></i></a>
+          </li>
+          <li class="home__social-item">
+            <a class="home__social-link" href="https://github.com/redreaq"><i class='bx bxl-github'></i></a>
+          </li>
+          <li class="home__social-item">
+            <a class="home__social-link" href="mailto:redreaq@gmail.com"><i class='bx bx-envelope'></i></a>
+          </li>
+        </ul>
+
+        <div class="home__info">
+
+          <h1 class="home__title">Bienvenidos, soy Eduardo</h1>
+
+          <p class="home__description">
+            Soy un gram emprededor web, me encanta la progamacion y las nuevas tecnologias.
+          </p>
+        </div>
+
+        <div class="home__buttons">
+          <button href="file:///C:/Users/redre/Downloads/CV.%20R.%20Eduardo%20Alvarez.%20PPAL..pdf" class="btn btn--primary" type="button">Descarga CV</button>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="about" class="about section">
+      <h2 class="section__title">Acerca de Mí</h2>
+
+      <div class="about__container grid--container">
+        <p class="about__description">
+          Hola, soy Ramon Eduardo Alvarez, un Venezolano Argentino o un Argenzolano radicado en Bueno Aires con mi
+          esposa y mi hija de cinco años, me encanta viajar, y si es en avión mucho mejor ya que la aviación es una de
+          mis pasiones, así como la buena música, mi primera profesión es abogado y Ahora con orgullo PROGRAMADOR Y
+          DESARROLLADOR WEB a tu servicio.
+        </p>
+
+        <div class="about__cards">
+          <!--Card 1 -->
+          <div class="about__card">
+            <img class="about__card--img" src="assets/img/Adoro los aviones.jpeg" alt="Viajando">
+          </div>
+          <!--Card 2 -->
+          <div class="about__card">
+            <img class="about__card--img" src="assets/img/Disfrutando de un paseo.jpeg" alt="Un-dia-feliz">
+          </div>
+          <!--Card 3 -->
+          <div class="about__card">
+            <img class="about__card--img" src="assets/img/Disfrutando Sinfonico.jpeg" alt="En-concierto">
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="skills" class="skills section">
+      <h2 class="section__title">Habilidades</h2>
+
+      <div class="skills__container grid--container">
+        <p class="skills__description">
+          El desarrollo de nuevas habilidades se ha convertido en una de mis más grandes pasiones, es por ello que
+          cuento con solidos conocimientos en Html, CSS3, Javascript y React.
+        </p>
+
+        <div class="skills__wrapper">
+          <div class="skills__cards">
+            <!--Card 1 -->
+            <input type="radio" name="slide" id="c1" checked class="skills__input">
+            <label for="c1" class="skills__card">
+              <div class="skills__card-row">
+                <i class="bx bxl-html5"></i>
+                <div class="skills__description">
+                  <h3 class="skills__card-title">HTML</h3>
+                  <p>¿Has oído hablar de que la primera impresión es lo que cuenta? Pues HTML es lo primero con lo que
+                    te topas cuando quieres navegar en internet, es por ello que la experiencia del usuario debe ser la
+                    mas amena al momento de interactuar con tu empresa o emprendimiento, ¡esa es mi misión como tu
+                    programador!</p>
+                </div>
+              </div>
+            </label>
+            <!--Card 2 -->
+            <input type="radio" name="slide" id="c2" checked class="skills__input">
+            <label for="c2" class="skills__card">
+              <div class="skills__card-row">
+                <i class="bx bxl-css3"></i>
+                <div class="skills__description">
+                  <h3 class="skills__card-title">CSS3</h3>
+                  <p>Las paginas web son como las personas cuando tienes una cita, cuanto más y mejor puedas interactuar
+                    con ellas mucho mejor, pues no es nada mas fastidioso que hablar con alguien aplanado y monótono.
+                    Como desarrollador web quiero que tu página brille por sí misma cuando interactúen con ella. CSS3 es
+                    mi mejor aliada para hacer eso.</p>
+                </div>
+              </div>
+            </label>
+            <!--Card 3 -->
+            <input type="radio" name="slide" id="c3" checked class="skills__input">
+            <label for="c3" class="skills__card">
+              <div class="skills__card-row">
+                <i class="bx bxl-javascript"></i>
+                <div class="skills__description">
+                  <h3 class="skills__card-title">Javascript</h3>
+                  <p>Y ya que hablamos de interacción y de personas como paginas web, uso Javascript para hacer que tu
+                    información se muestre sola a medida que la vayas requiriendo, de forma eficiente.</p>
+                </div>
+              </div>
+            </label>
+            <!--Card 4 -->
+            <input type="radio" name="slide" id="c4" checked class="skills__input">
+            <label for="c4" class="skills__card">
+              <div class="skills__card-row">
+                <i class='bx bxl-react'></i>
+                <div class="skills__description">
+                  <h3 class="skills__card-title">React</h3>
+                  <p>Con REACT me he podido dar un gran gusto, porque ahora puedo llevar a un teléfono móvil toda la
+                    información de tu pagina web mediante la creación y posterior utilización de una aplicación
+                    compatible con las plataformas de iOS y Android, igual de interactiva y amigable.</p>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div class="skills__tags">
+          <h3 class="skills__tags-title">Habilidades Blandas</h3>
+          <div class="skills__tags-container">
+            <span class="skills__tag">Responsable</span>
+            <span class="skills__tag">Trabajo en equipo</span>
+            <span class="skills__tag">Creativo</span>
+            <span class="skills__tag">Puntual</span>
+            <span class="skills__tag">Proactivo</span>
+            <span class="skills__tag">Comprometido</span>
+            <span class="skills__tag">Leal</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section">
+      <h2 class="section__title">Proyectos</h2>
+      <!-- PROYECTO 1  -->
+      <div class="projects__container grid--container">
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img class="gaby" src="assets\img\Proyecto Diadema.png" alt="project 1" />
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto 1</h3>
+              <p class="projects__description">
+                Proximamente. Psicologa y Coach Ontologico Profesional Maria Gabriela Palacios.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">
+                  VER DEMO
+                </button>
+                <button class="btn projects__button" type="button">
+                  VER CÓDIGO
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PROYECTO 2  -->
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets\img\Tepui Editorial Virtual.png" alt="project 2" />
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto 2</h3>
+              <p class="projects__description">
+                Próximamente, si quieres encontrar un espacio para leer o eres escritor y te quieres dar a conocer, muy
+                pronto con TEPUI EDITORIAL podrás editar y publicar tu obra.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">
+                  VER DEMO
+                </button>
+                <button class="btn projects__button" type="button">
+                  VER CÓDIGO
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact section">
+      <h2 class="section__title">Contacto</h2>
+
+      <div class="contact__container grid--container">
+        <div class="contact__info">
+          <h3 class="contact__info-title">Información de contacto</h3>
+          <p class="contact__info-description">
+            Contactame.
+          </p>
+
+          <address class="contatc__info-data">
+            <div class="contact__info-item">
+              <i class='bx bxl-whatsapp'></i>
+
+              <span class="contact__info-number">
+                <a href="https://wa.me/0000000000000?text=Tu%20Mensaje%20De%20Texto" target="_blank">Enviar mensaje a
+                  WhatsApp</a>
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class="bx bx-phone"></i>
+
+              <span class="contact__info-number">
+                <a href="tel:54 9 11 39413213"> +54 9 11 39413213 </a>
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class="bx bxs-envelope"></i>
+
+              <span class="contact__info-mail">
+                <a id="mail" href="mailto:redreaq@gmail.com"> redreaq@gmail.com </a>
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class="bx bx-map"></i>
+
+              <span class="contact__info-map"> Buenos Aires, Argentina. </span>
+            </div>
+          </address>
+        </div>
+
+        <div class="contact__form">
+          <h3 class="contact__form-title">Enviar mensaje</h3>
+          <form id="form" class="contact__form-container">
+            <div class="contact__form-group">
+              <label for="name" class="contact__form-label">Nombre</label>
+              <input type="text" id="name" name="name" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="email" class="contact__form-label">Correo</label>
+              <input type="email" id="email" name="email" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="subject" class="contact__form-label">Asunto</label>
+              <input type="text" id="subject" name="subject" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="message" class="contact__form-label">Mensaje</label>
+              <textarea id="message" name="message" cols="30" rows="10" class="contact__form-input"></textarea>
+            </div>
+            <dialog id="modal">
+              Formulario enviado con éxito!
+              <button type="reset" id="btn_close-modal">Cerrar</button>
+            </dialog>
+
+            <button type="submit" class="btn contact__form-button">
+              Enviar
+            </button>
+
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section">
+    <div class="footer__container grid--container">
+      <div class="footer__info">
+        <h3 class="footer__title">R.Eduardo Alvarez</h3>
+        <p class="footer__description">
+          Soy desarrollador web, apasionado por la tecnología y la
+          programación.
+        </p>
+      </div>
+
+      <div class="footer__social">
+        <h3 class="footer__title">Redes Sociales</h3>
+
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class="bx bxl-facebook"></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class="bx bxl-instagram"></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class="bx bxl-twitter"></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class="bx bxl-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer__copy"></p>
+  </footer>
+</body>
+
+</html>
